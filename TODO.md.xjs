@@ -1,0 +1,8 @@
+module.exports = (data, options) => {
+  let lines = [];
+  
+  lines.push('# Test git repo');
+  lines.push(data.greeting);
+  
+  return lines.join('\n\n');
+};
