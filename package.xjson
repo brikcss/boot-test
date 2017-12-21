@@ -1,7 +1,7 @@
 module.exports = (data, brik) => {
   return {
     scripts: {
-      test: 'echo "I am a test."'
+      test: `echo "I am a test. ${data.holla}!"`
     }
   };
 };
