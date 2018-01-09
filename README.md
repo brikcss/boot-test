@@ -1,3 +1,3 @@
 # boot-test
 
-<%= data.headline || 'I am Tim.' %>
+<%= brik.data.headline || 'I am Tim.' %>
