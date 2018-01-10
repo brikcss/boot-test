@@ -1,4 +1,4 @@
-module.exports = ({data}, tim) => {
+module.exports = (data) => {
   let lines = [];
   
   lines.push('# Test git repo');
