@@ -1,4 +1,4 @@
-module.exports = ({data}, tim) => {
+module.exports = (data, tim) => {
   return {
     scripts: {
       test: `echo "I am a test. ${data.holla}!"`
