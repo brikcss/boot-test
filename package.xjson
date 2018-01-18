@@ -1,7 +1,7 @@
-module.exports = (data, tim) => {
+module.exports = (brik = {}) => {
   return {
     scripts: {
-      test: `echo "I am a test. ${data.holla}!"`
+      test: `echo "I am a test. ${brik.holla || 'Sup'}!"`
     }
   };
 };
