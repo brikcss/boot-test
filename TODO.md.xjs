@@ -1,8 +1,8 @@
-module.exports = (data) => {
+module.exports = (brik) => {
   let lines = [];
   
   lines.push('# Test git repo');
-  lines.push(data.greeting);
+  lines.push(brik.greeting);
   
   return lines.join('\n\n');
 };
