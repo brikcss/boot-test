@@ -1,6 +1,7 @@
 module.exports = (brik = {}) => {
   return {
     scripts: {
+      '// [GIT REPO TEST]': 'This is a test from the @brikcss/boot-test repo.',
       test: `echo "I am a test. ${brik.holla || 'Sup'}!"`
     }
   };
